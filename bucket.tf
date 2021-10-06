@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "functions" {
-  name          = var.bucket_name
+  name          = var.ninja_bucket_name
 }
 
 resource "google_storage_bucket_object" "golang" {

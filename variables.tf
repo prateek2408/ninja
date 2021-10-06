@@ -1,4 +1,4 @@
-variable "bucket_name" {
+variable "ninja_bucket_name" {
   type = string 
 }
 
